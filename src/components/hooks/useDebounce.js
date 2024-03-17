@@ -11,6 +11,6 @@ const useDebounce = (callback,delay)=>{
             callback(...args)
         },delay)
     }
-    return debouncedCallback
+    return debouncedCallback;
 }
 export default useDebounce;
